@@ -29,7 +29,7 @@ The system detects a human face from a webcam feed and classifies the facial exp
     - Emotion label is displayed in real time
 ---
 ## Project Structure
-```
+```bash
 facial-emotion-recognition/
 │
 ├── dataset/                     # Training dataset
