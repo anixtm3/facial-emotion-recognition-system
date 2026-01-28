@@ -134,7 +134,7 @@ python emotion_webcam.py
 - Does not account for head pose variations
 - Emotion classification may vary across individuals 
 
-## Future Enhancements (Maybe lol)
+## Future Enhancements (maybe lol)
 - Data augmentation to improve accuracy
 - Confusion matrix and detailed evaluation metrics
 - Graphical User Interface
