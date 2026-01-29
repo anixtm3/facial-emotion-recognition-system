@@ -113,6 +113,17 @@ The model outputs probabilities for each of the seven emotion classes.
 - OpenCV
 - NumPy
 
+## Python Version Requirement
+This project is tested and verified on **Python 3.10.11**.
+
+**Important:**  
+Some libraries used in this project (such as `face-recognition` and its dependencies like `dlib`) are **not fully compatible with Python 3.11+** at the time of development.
+
+Using a Python version other than **3.10.11** may result in installation errors or runtime issues.
+
+**Recommended version:**  
+- Python **3.10.11**
+
 ## Installation Instructions
 ### Step 1: Clone the repository
 
