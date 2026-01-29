@@ -11,6 +11,7 @@ A real-time deep learning system that classifies emotions from webcam feed using
 - [System Architecture](https://github.com/aniketrepo/facial-recognition-system/tree/main?tab=readme-ov-file#system-architecture)
 - [Model Architecture](https://github.com/aniketrepo/facial-recognition-system/tree/main?tab=readme-ov-file#model-architecture)
 - [Technologies Used](https://github.com/aniketrepo/facial-recognition-system/tree/main?tab=readme-ov-file#technologies-used)
+- [Python Version Requirement](https://github.com/aniketrepo/facial-recognition-system#python-version-requirement)
 - [Installation Instructions](https://github.com/aniketrepo/facial-recognition-system/tree/main?tab=readme-ov-file#installation-instructions)
 	- [Step 1](https://github.com/aniketrepo/facial-recognition-system/tree/main?tab=readme-ov-file#step-1-clone-the-repository)
 	- [Step 2](https://github.com/aniketrepo/facial-recognition-system/tree/main?tab=readme-ov-file#step-2-install-dependencies)
