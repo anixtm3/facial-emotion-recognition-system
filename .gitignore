@@ -1,24 +1,25 @@
-# ===== Python =====
+# Python
 __pycache__/
 *.pyc
 *.pyo
 
-# ===== Virtual Environments =====
-venv/
-.venv/
-env/
+# Dataset
+dataset/
 
-# ===== OS Files =====
+# Virtual Environments
+venv/
+
+# OS Files
 .DS_Store
 Thumbs.db
 
-# ===== IDEs =====
+# IDEs
 .vscode/
-.idea/
+.obsidian/
 
-# ===== ML Artifacts =====
+# ML Artifacts
 logs/
 runs/
 
-# ===== Local config =====
+# Local config
 .env
