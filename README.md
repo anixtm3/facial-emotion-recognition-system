@@ -186,3 +186,7 @@ python emotion_webcam.py
 
 ## Conclusion
 This project demonstrates a complete deep learning-based solution for facial emotion recognition. It includes dataset preparation, CNN training, model evaluation, and real-time emotion prediction using webcam input.
+
+## Author
+Aniket Dixit  
+B.Tech Data Science  
