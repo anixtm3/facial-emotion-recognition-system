@@ -174,12 +174,12 @@ emotion_model.h5
 ```
 > This step is required only once unless you change the dataset.
 
-### Step 7: Run the System
+### Step 6: Run the System
 ```python
 python webcam_recognition.py
 ```
 
-### Step 9: Controls
+### Step 7: Controls
 - Press `Q` to quit the application
 
 ## Output
