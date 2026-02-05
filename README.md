@@ -132,33 +132,53 @@ git clone https://github.com/aniketrepo/facial-recognition-system.git
 cd facial-recognition-system
 ```
 
-### Step 2: Install dependencies
+### Step 2: Create a Virtual Environment
+Windows
+```python
+python -m venv venv
+venv\Scripts\activate
+```
 
-```bash
+Linux/MacOS
+```python
+python3.10 -m venv venv
+source venv/bin/activate
+```
+> Make sure the Python version inside venv is 3.10.11
+
+### Step 3: Install Dependencies
+```python
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## Training the Model
-To train the emotion recognition model, run:
-
-```bash
-python train_emotion_model.py
+### Step 4: Dataset Setup
+- Add face images to the `dataset/` directory
+- Each emotion should have **it's own folder**
+```shell
+emotion_dataset/
+├── angry/
+├── happy/
+├── sad/
+├── neutral/
 ```
 
-This script:
-- Loads the dataset
-- Trains the CNN model
-- Saves the trained model as `emotion_model.h5`
+### Step 5: Train Emotion Recognition Model (Required)
+This step generated the trained model file (`.h5`).
+```python
+python train_emotion_model.h5
+```
+**Output:**
+```text
+emotion_model.h5
+```
+> This step is required only once unless you change the dataset.
 
-## Real-Time Emotion Recognition
-To run real-time emotion detection using a webcam:
-
-```bash
-python emotion_webcam.py
+### Step 7: Run the System
+```python
+python webcam_recognition.py
 ```
 
-### Controls:
-- Press `Q` to exit the application
 
 ## Output
 - Detected face is highlighted using a bounding box
