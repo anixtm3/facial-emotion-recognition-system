@@ -25,7 +25,7 @@ A real-time deep learning system that classifies emotions from webcam feed using
 - [Limitations](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#limitations)
 - [Future Enhancements](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#future-enhancements)
 - [Conclusion](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#conclusion)
-- [Author]()
+- [Author](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#author)
 
 # Overview
 This project implements a **Facial Emotion Recognition System** using **Deep Learning (CNN)** and **Computer Vision**.  
@@ -214,4 +214,5 @@ This project demonstrates a complete deep learning-based solution for facial emo
 
 # Author
 Aniket Dixit
+
 B.Tech Data Science
