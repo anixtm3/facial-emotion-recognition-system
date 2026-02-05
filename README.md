@@ -179,6 +179,8 @@ emotion_model.h5
 python webcam_recognition.py
 ```
 
+### Step 9: Controls
+- Press `Q` to quit the application
 
 ## Output
 - Detected face is highlighted using a bounding box
