@@ -1,4 +1,4 @@
-# Facial Recognition System
+# Facial Emotion Recognition System
 A real-time deep learning system that classifies emotions from webcam feed using CNNs.
 
 <details>
