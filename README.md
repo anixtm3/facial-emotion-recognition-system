@@ -1,31 +1,33 @@
 # Facial Recognition System
 A real-time deep learning system that classifies emotions from webcam feed using CNNs.
 
-# Table of Contents
+<details>
+  <summary><strong>Table of Contents</strong></summary>
+
 - [Overview](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#overview)
 - [Objectives](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#objectives)
 - [How the system works](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#how-the-system-works)
 - [Project Structure](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#project-structure)
 - [Dataset Description](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#dataset-description)
-	- [Dataset Source](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#dataset-source)
+  - [Dataset Source](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#dataset-source)
 - [System Architecture](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#system-architecture)
 - [Model Architecture](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#model-architecture)
 - [Technologies Used](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#technologies-used)
 - [Python Version Requirement](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#python-version-requirement)
 - [Installation Instructions](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#installation-instructions)
-	- [Step 1](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-1-clone-the-repository)
-	- [Step 2](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-2-install-dependencies)
-	- [Step 3](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-3-install-dependencies)
-	- [Step 4](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-4-dataset-setup)
-	- [Step 5](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-5-train-emotion-recognition-model-required)
-	- [Step 6](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-6-run-the-system)
-	- [Step 7](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-6-run-the-system)
+  - [Step 1](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-1-clone-the-repository)
+  - [Step 2](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-2-install-dependencies)
+  - [Step 3](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-3-install-dependencies)
+  - [Step 4](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-4-dataset-setup)
+  - [Step 5](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-5-train-emotion-recognition-model-required)
+  - [Step 6](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#step-6-run-the-system)
 - [Output](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#output)
 - [Performance Notes](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#performance-notes)
 - [Limitations](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#limitations)
 - [Future Enhancements](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#future-enhancements)
 - [Conclusion](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#conclusion)
 - [Author](https://github.com/aniketrepo/facial-recognition-system?tab=readme-ov-file#author)
+</details>
 
 # Overview
 This project implements a **Facial Emotion Recognition System** using **Deep Learning (CNN)** and **Computer Vision**.  
