@@ -60,7 +60,7 @@ The system detects a human face from a webcam feed and classifies the facial exp
     - Emotion label is displayed in real time
 
 # Project Structure
-```bash
+```
 facial-emotion-recognition/
 │
 ├── dataset/                     # Training dataset
@@ -132,27 +132,27 @@ Using a Python version other than **3.10.11** may result in installation errors 
 # Installation Instructions
 ## Step 1: Clone the repository
 
-```bash
+```
 git clone https://github.com/aniketrepo/facial-recognition-system.git
 cd facial-recognition-system
 ```
 
 ## Step 2: Create a Virtual Environment
 Windows
-```python
+
 python -m venv venv
 venv\Scripts\activate
 ```
 
 Linux/MacOS
-```python
+```
 python3.10 -m venv venv
 source venv/bin/activate
 ```
 > Make sure the Python version inside venv is 3.10.11
 
 ## Step 3: Install Dependencies
-```python
+```
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
@@ -160,7 +160,7 @@ pip install -r requirements.txt
 ## Step 4: Dataset Setup
 - Add face images to the `dataset/` directory
 - Each emotion should have **it's own folder**
-```shell
+```
 emotion_dataset/
 ├── angry/
 ├── happy/
@@ -170,17 +170,17 @@ emotion_dataset/
 
 ## Step 5: Train Emotion Recognition Model (Required)
 This step generated the trained model file (`.h5`).
-```python
+```
 python train_emotion_model.h5
 ```
 **Output:**
-```text
+```
 emotion_model.h5
 ```
 > This step is required only once unless you change the dataset.
 
 ## Step 6: Run the System
-```python
+```
 python webcam_recognition.py
 ```
 
