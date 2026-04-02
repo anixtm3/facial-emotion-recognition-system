@@ -140,6 +140,7 @@ cd facial-recognition-system
 ## Step 2: Create a Virtual Environment
 Windows
 
+```
 python -m venv venv
 venv\Scripts\activate
 ```
