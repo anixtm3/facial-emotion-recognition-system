@@ -139,7 +139,6 @@ cd facial-recognition-system
 
 ## Step 2: Create a Virtual Environment
 Windows
-
 ```
 python -m venv venv
 venv\Scripts\activate
@@ -174,6 +173,7 @@ This step generated the trained model file (`.h5`).
 ```
 python train_emotion_model.h5
 ```
+
 **Output:**
 ```
 emotion_model.h5
