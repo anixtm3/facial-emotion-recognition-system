@@ -114,10 +114,10 @@ The overall workflow is:
         Real-Time Recognition         Model Evaluation
                 │                           │
                 ▼                           ├── Accuracy
-          Webcam Input                     ├── AUC-ROC
+          Webcam Input                      ├── AUC-ROC
                 │                           ├── Confusion Matrix
                 ▼                           ├── Precision
-          Face Detection                   ├── Recall
+          Face Detection                    ├── Recall
                 │                           ├── F1-score
                 ▼                           └── Efficiency
         Image Preprocessing
