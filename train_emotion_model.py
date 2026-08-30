@@ -1,3 +1,4 @@
+import json
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import Sequential
@@ -68,7 +69,7 @@ model.compile(
 )
 
 # TRAINING
-model.fit(
+history = model.fit(
     train_data,
     validation_data=val_data,
     epochs=EPOCHS
@@ -76,4 +77,10 @@ model.fit(
 
 # SAVE MODEL
 model.save("emotion_model.h5")
+
+# SAVE TRAINING HISTORY
+with open("training_history.json", "w") as f:
+    json.dump(history.history, f)
+
 print("Emotion model trained and saved as emotion_model.h5")
+print("Training history saved as training_history.json")
